@@ -1,5 +1,5 @@
 
-## Simple Neural Network 
+## Simple Neural Network exporter (h5->csv)
 A very simple script to export the parameters (i.e., weights, biases) of a saved Neural Network model (.h5) to .csv files, for later use.  
 In this project, I use [Keras](https://www.tensorflow.org/guide/keras/save_and_serialize) to load the models, but it can be adapted according to your framework preference.
   
