@@ -13,7 +13,7 @@ def save_csv(dir, filename, data):
     :return:
     '''
     file = os.path.join(dir, filename)
-    np.savetxt(file, w, delimiter=",")
+    np.savetxt(file, data, delimiter=",")
 
 
 if __name__ == '__main__':
